@@ -1,0 +1,504 @@
+/* iPads and Tablets - portrait */
+@media screen and (768px <= width <= 1023px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    background: white;
+    width: 100%;
+    height: 517px;
+    box-shadow: 0px 0px 400px 100px rgba(0, 0, 0, 0.65);
+  }
+
+  [aria-expanded="true"] ~ ul li a{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .topResponsiveNav, .bottomResponsiveNav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4.688rem;
+  }
+
+  .benefitCard {
+    width: calc(50% - 50px);
+  }
+
+  .heroSection {
+    align-items: center;
+    flex-direction: column;
+    padding-top: 300px;
+  }
+
+  .leftPart,
+  .rightPart {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-left-text {
+    align-items: center;
+  }
+
+  .rightPart {
+    margin-top: 8rem;
+  }
+
+  .keyBenefitsSection {
+    margin-top: 26rem;
+  }
+
+  .hubspotSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .priceAndBenefitsContainer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .pricingPlan {
+    width: calc(100% - 3.75rem);
+  }
+
+  .breakUpLine {
+    width: 40.5rem;
+  }
+
+  .pricingGuarantee {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .videoCctextBox {
+    align-items: center;
+    width: 100%;
+  }
+
+  .pricingComponentsContainer {
+    width: 100%;
+  }
+
+  .planFeaturesContainerTop,
+  .planFeaturesContainerBottom {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .rightHubspot {
+    display: flex;
+    align-items: center;
+    margin: -350px 0 150px 0px;
+    text-align: center;
+  }
+
+  .hireUsSection {
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .hireUsLeft {
+    flex-direction: row;
+    height: auto;
+    padding-top: 1.875rem;
+  }
+
+  .hireUsLeftBottomSection {
+    margin-top: 0px;
+  }
+
+  .topLineMessage,
+  .firstSixBoxFormat,
+  .firstSixSubmitForm,
+  .textAreaCommentBox,
+  .checkBoxSection {
+    width: 100%;
+  }
+
+  .companyAndFeaturesContainer,
+  .documentationAndResourcesContainer {
+    flex-direction: column;
+  }
+
+  .footerTopRight {
+    justify-content: flex-start;
+  }
+}
+
+/* iPads and Tablets - portrait */
+@media screen and (360px <= width <= 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    background: white;
+    width: 100%;
+    height: 100vh;
+  }
+
+  [aria-expanded="true"] ~ ul li a{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .backgroundImg {
+    height: 600px;
+  }
+
+  .topResponsiveNav, .bottomResponsiveNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  #buy-now-link {
+    margin-top: 1rem;
+  }
+
+  .benefitCard {
+    width: 100%;
+  }
+
+  .heroSection {
+    align-items: center;
+    flex-direction: column;
+  
+  }
+
+  .leftPart,
+  .rightPart {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .leftPart {
+    margin-top: 475px;
+    width: 100%;
+  }
+
+  .hero-left-text {
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 26px;
+    line-height: 35.5px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+  }
+
+  .rightPart {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8rem;
+  }
+
+  div.rightPart div {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .asana-logo {
+    left: 120px;
+  }
+
+  .calendar-logo {
+    left: 100px;
+    top: 186px;
+  }
+
+  .weave-logo {
+    top: -35px;
+    left: 40px;
+  }
+
+  .paypal-logo {
+    top: -115px;
+    left: -124px;
+  } 
+
+  .atlasian-logo {
+    left: -15px;
+    top: -320px;
+  }
+
+  .googleAds-logo {
+    left: -36px;
+    top: -155px;
+  }
+
+  .google-logo {
+    left: -133px;
+    top: -450px;
+  }
+
+  .keyBenefitsSection {
+    margin-top: 26rem;
+  }
+
+  .benefits-summary { width: 15rem; }
+
+  .benefitList {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .bannerSection {
+    flex-direction: column;
+  }
+
+  .bannerLeft, .bannerRight {
+    text-align: center;
+    width: 100%;
+  }
+
+  .bulletContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .bulletList {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .bulletListItems {
+    flex-direction: column;
+    gap: 44px;
+    margin-bottom: 20px;
+  }
+
+  .bulletList hr {
+    display: none;
+  }
+
+  .hubspotSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hubspotText {
+    width: 20rem;
+  }
+
+  .pricingHeader {
+    margin-bottom: 20px;
+  }
+
+  .priceAndBenefitsContainer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .pricingPlan {
+    width: calc(100% - 3.75rem);
+    padding: 2rem;
+  }
+
+  .breakUpLine {
+    width: 90%;
+  }
+
+  .pricingGuarantee {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .videoCctextBox {
+    align-items: center;
+    width: 100%;
+  }
+
+  .pricingComponentsContainer {
+    width: 100%;
+    height: 37.25rem;
+  }
+
+  .planFeaturesContainerTop,
+  .planFeaturesContainerBottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 24rem;
+  }
+
+  .christina {
+    width: 14rem;
+  }
+
+  .leftHubspot {
+    align-items: center;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .dots {
+    height: 16rem;
+    left: -77px;
+    top: -200px;
+  }
+
+  .rightHubspot {
+    display: flex;
+    align-items: center;
+    margin: -350px 0 150px 0px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .brandsTitle {
+    text-align: center;
+  }
+
+  .brandLogos {
+    flex-direction: column;
+  }
+
+  .hireUsSection {
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .hireUsLeft {
+    flex-direction: column;
+    height: auto;
+    padding-top: 1.875rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hireUsLeftTopSection {
+    width: 100%;
+    align-items: center;
+  }
+
+  .leftHireQuote {
+    text-align: center;
+  }
+
+  .hireUsLeftBottomSection {
+    margin-top: 0px;
+  }
+
+  .firstSixSubmitForm {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .form-button {
+    margin-top: 7rem;
+  }
+
+  .topLineMessage,
+  .firstSixBoxFormat,
+  .firstSixSubmitForm,
+  .textAreaCommentBox,
+  .checkBoxSection {
+    width: 100%;
+  }
+
+  .footerTopBoxContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footerTopLeft {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .footerTopSec1 {
+    align-items: center;
+  }
+
+  .footerTopRight {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .companyAndFeaturesContainer,
+  .documentationAndResourcesContainer {
+    flex-direction: column;
+  }
+
+  .needHelp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .afterHrText {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .siteMap, .linksFooter {
+    margin-right: 0;
+  }
+
+  .linksFooter {
+    padding-bottom: 1rem;
+  }
+
+  .frontEst, .cookieText {
+    width: 100%;
+  }
+
+  .frontEst {
+    margin-top: 3rem;
+    text-align: center;
+  }
+}
